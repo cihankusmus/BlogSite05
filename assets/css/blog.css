@@ -1,0 +1,379 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+ 
+  * {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: #F2F2F2;
+  }
+ 
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  body{
+    font: 16px/28px 'Open Sans', sans-serif;
+    color: #212121;
+    background: #FFF;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat ', sans-serif;
+    font-weight: 700;
+  }
+  h1{
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    margin-bottom: 38px;
+    margin-top: 80px;
+    margin-right: 286px;
+  }
+  h2{
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -0.35px;
+    margin-bottom: 16px;
+  }
+  h3, h4{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  h3{
+    margin-bottom: 16px;
+  }
+  .container{
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+  }
+  .nav{
+    display: flex;
+    list-style: none;
+    gap: 57px;
+  }
+  .nav a{
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #212121;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+  }
+  .headerMiddle{
+    display: flex;
+  }
+  .middleSearch{
+    background-color: transparent;
+    border: none;
+    width: 300px;
+    padding-left: 15px;
+  }
+  .headerMiddle p{
+    font-size: 14px;
+    font-family: 'Open Sans';
+    line-height: 24px;
+    color: #212121;
+    
+  }
+  .searchLine{
+    width: 333px;
+    height: 1.043px;
+    background-color: #212121;
+    position: absolute;
+    margin-top: 33px;
+  }
+  .headerRight{
+    display: flex;
+    gap: 32px;
+  }
+  .headerBackground{
+    height: 700px;
+    background: #FFC9BA;
+    
+  }
+  .main h1{
+    color: #212121;
+    font-size: 40px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    line-height: 48px;
+    width: 370px;
+    margin-top: 120px;
+  }
+  .mainText h3{
+    margin-top: 32px;
+    display: flex;
+  }
+  .main p{
+    color: #212121;
+    font-size: 16px;
+    font-family: 'Open Sans' ;
+    line-height: 28px;
+  }
+  .main{
+    display: flex;
+    
+  }
+  .mainText p{
+    width: 370px;
+  }
+  .mainImg{
+    width: 1100px;
+    height: 320px;
+    flex-shrink: 0;
+    margin-top: 200px;
+    position: absolute;
+    padding-left: 400px;
+   
+  }
+  .logoTopText p{
+    font-size: 14px;
+    font-family: 'Open Sans';
+    line-height: 24px;  
+    color: var(--black-500-gray, #807E7E);
+    margin-top: 55px;
+    margin-bottom: 24px;
+  }
+  .logo{
+    margin-bottom: 120px;
+  }
+  .logoBottomImg{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 120px;
+  }
+  .featuredProducts p{
+    color: #212121;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    line-height: 30px;
+  }
+  .line{
+    display: flex;
+    height: 1px;
+    background-color: #EAEAEA;
+    margin-bottom: 24px;
+    margin-top: 10px;
+  }
+  .chairs p{
+    color: var(--black-500-gray, #807E7E);
+    font-size: 12px;
+    font-family: 'Open Sans';
+    line-height: 21px;
+    
+  }
+  .classicGTWatch a{
+    text-decoration: none;
+  }
+  .gtWatchTitle p{
+    color: var(--black-800, #212121);
+    font-size: 16px;
+    font-family: 'Open Sans';
+    line-height: 28px;
+    margin-top: 5px;
+  }
+  .price{
+    color: var(--black-800, #212121);
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    line-height: 28px;
+    margin-top: 5px;
+  }
+  .featuredProductsImg{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+  }
+  .kodaMiddle{
+    background-color: #FAFAFB;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 135px;
+  }
+  .kodaMiddle p{
+    color: var(--black-800, #212121);
+    font-size: 14px;
+    font-family: 'Open Sans';
+    line-height: 24px;
+    width: 280px;
+    padding-left: 95px;
+
+  }
+  .kodaMiddle h2{
+    color: var(--black-800, #212121);
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: -0.35px;
+    width: 280px;
+    padding-top: 120px;
+    padding-left: 95px;
+  }
+  .kodaMiddle h3{
+    color: var(--black-800, #212121);
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 32px;
+    display: flex;
+    margin-top: 40px;
+    padding-left: 95px;
+  }
+  .kodaMiddle a{
+    text-decoration: none;
+  }
+  .featuredProducts02 p{
+    color: #212121;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    line-height: 30px;
+  }
+  .kodaMiddleImg1-2{
+    display: flex;
+    justify-content: space-between;
+  }
+  .kodaMiddleImg1-2 p{
+    display: flex;
+    width: 151px;
+    position: absolute;
+    background: var(--neutral-white, #FFF);
+    padding: 16px;
+    align-items: flex-start;
+    margin-top: 295px;
+    margin-left: 24px;
+   
+  }
+  .kodaMiddleImg1-2 a p{
+    position: absolute;
+    width: 192px;
+    height: 62px;
+    left: 750px;
+    margin-top: 333px;
+    display: flex;
+  }
+  .kodaMiddleImg2{
+    margin-left: 24px;
+  }
+  .kodaMiddleImg3-4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 135px;
+  }
+  .kodaMiddleImg3-4 p{
+    position: absolute;
+    border-radius: 6px;
+    background: var(--neutral-white, #FFF);
+    gap: 10px;
+    padding: 16px;
+    margin-left: 24px;
+    margin-top: 333px;
+  }
+  .kodaMiddleImg3-4 a p{
+    left: 650px;
+  }
+  .latestArticlesImg p{
+    color: #807E7E;
+    font-size: 12px;
+    font-family: 'Open Sans';
+    line-height: 21px;
+  }
+  .latestArticlesImg a p{
+    color: #212121;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    line-height: 28px;
+  }
+  .latestArticlesImg a{
+    text-decoration: none;
+  }
+  .latestImg{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
+  .lineLong{
+    height: 1px;
+    background: #EAEAEA;
+    
+  }
+
+  .bottomLogo p{
+    color: var(--neutral-blue, #52647C);
+    font-size: 14px;
+    font-family: 'Open Sans';
+    line-height: 24px;
+    width: 500px;
+    margin-top: 24px;
+  }
+  .bottomInfo{
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 72px;
+    
+  }
+  .bottomInfo ul{
+    color: var(--black-800, #212121);
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .bottomInfo li{
+    color: #807E7E;
+    list-style-type: none;
+  }
+  .bottomInfo a{
+    text-decoration: none;
+  }
+  .bottomSocialLogo{
+    display: flex;
+    gap: 40px;
+    
+  }
+  .bottomSocial{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+  }
+  .bottomSocial p{
+    color: var(--black-500-gray, #807E7E);
+    text-align: right;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    line-height: 24px;
+  }
+  
