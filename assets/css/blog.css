@@ -262,45 +262,61 @@
     display: flex;
     justify-content: space-between;
   }
-  .kodaMiddleImg1-2 p{
-    display: flex;
+  a{
+    text-decoration: none;
+  }
+  .box-1 span{
+    display: inline-block;
     width: 151px;
     position: absolute;
+    text-decoration: none;
     background: var(--neutral-white, #FFF);
     padding: 16px;
     align-items: flex-start;
-    margin-top: 295px;
-    margin-left: 24px;
-   
+    color: #212121;
+    bottom: 24px;
+    left: 24px;
+    font-family: 'Montserrat';
+    
   }
-  .kodaMiddleImg1-2 a p{
+  .box-2 span{
+    display: inline-block;
     position: absolute;
+    padding: 16px;
+    text-decoration: none;
+    color: #212121;
+    background-color: #FFF;
+    bottom: 24px;
+    left: 24px;
+    align-items: flex-start;
     width: 192px;
-    height: 62px;
-    left: 750px;
-    margin-top: 333px;
-    display: flex;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px; 
   }
-  .kodaMiddleImg2{
-    margin-left: 24px;
+  .box-2 img{
+    display: block;
+
   }
+  .box-2{
+    position: relative;
+  }
+  .kodaMiddleImg1{
+    position: relative;
+  }
+  .kodaMiddleImg1 img{
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
   .kodaMiddleImg3-4{
     display: flex;
     justify-content: space-between;
     margin-top: 24px;
     margin-bottom: 135px;
-  }
-  .kodaMiddleImg3-4 p{
-    position: absolute;
-    border-radius: 6px;
-    background: var(--neutral-white, #FFF);
-    gap: 10px;
-    padding: 16px;
-    margin-left: 24px;
-    margin-top: 333px;
-  }
-  .kodaMiddleImg3-4 a p{
-    left: 650px;
   }
   .latestArticlesImg p{
     color: #807E7E;
